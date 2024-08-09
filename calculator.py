@@ -55,13 +55,13 @@ while (True):
     # decide function
     if (op != None):
         if (op == "+"):
-            print ("Sum: ", add(a, b))
+            print (f"the sum of {a} and {b} is: {add(a, b)}") # added  f to format the string
         elif (op == "-"):
-            print ("Difference: ", sub(a, b))
+            print (f"the difference of {a} and {b} is: {sub(a, b)}") # added  f to format the string
         elif (op == "*"):
-            print ("Product: ", mult(a, b))
+            print (f"the product of {a} and {b} is: {mult(a, b)}") # added  f to format the string
         elif (op == "/"):
-            print ("Quotient: ", div(a, b))
+            print (f"the quotient of {a} and {b} is: {div(a, b)}") # added  f to format the string
         else:
             print ("Invalid operation...")
 
