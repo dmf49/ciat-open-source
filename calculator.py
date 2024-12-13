@@ -19,14 +19,14 @@ def sub(a, b):
 # Multiply function
 # a -- multiplicand
 # b -- multiplier
-#def mult(a, b):
-#    return a * b
+def mult(a, b):
+    return a * b
 
 # Divide function
 # a -- dividend
 # b -- divisor
-#def div(a, b):
-#    return a / b
+def div(a, b):
+    return a / b
 
 
 # -------------------------------------------------------- #
